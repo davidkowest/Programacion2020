@@ -41,16 +41,16 @@ public class EjerPrueba {
 		
 		Punto [] puntos = {a,b,c,d};
 		
-		Rectangulo r1=new Rectangulo();
-		r1.setPuntos(puntos);
+		Rectangulo r1=new Rectangulo(puntos);
+//		r1.setPuntos(puntos); Al final lo hice de otra manera
 	
 		//continuar corrigiendo
 		
 		
-		System.out.println("La superficie del tri�ngulo es "+r1.superficie());
+		System.out.println("La superficie del triángulo es "+r1.superficie());
 		
 		Rectangulo r2=new Rectangulo(3.4, 20.7);
-		System.out.println("La superficie del tri�ngulo es "+r2.superficie());
+		System.out.println("La superficie del triángulo es "+r2.superficie());
 		
 		
 		

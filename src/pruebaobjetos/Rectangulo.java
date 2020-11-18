@@ -15,18 +15,18 @@ public class Rectangulo {
 	
 	//constructores
 	
-	public Rectangulo() {
+	public Rectangulo(Punto [] puntos) {
 //		this.a=a;
 //		this.b=b;
 //		this.c=c;
 //		this.d=d;
 		
-		puntos= new Punto [4];
+		this.puntos= puntos;
 		
 		
 		
-		this.base=puntos.getX(1);
-		this.altura=puntos.getY(3);
+		this.base=puntos[1].getX();
+		this.altura=puntos[3].getY();
 	}
 	
 	
