@@ -11,13 +11,12 @@ public class Mago extends Personaje {
 		}
 		
 		Mago (String nombre, String poder) {
-			this.energia=100;
-			this.nombre=nombre;
+			super(nombre, 100);
 			this.poder=poder;
 		}
 
 		
-	//Métodos
+	//Mï¿½todos
 		
 		public String getPoder() {
 			return poder;
